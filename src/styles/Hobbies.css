@@ -1,0 +1,40 @@
+.hobbi-container {
+    width: 100vw;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: #191919;
+}
+.hobbi-container h1 {
+    color: antiquewhite;
+}
+.hobbiLine {
+    border: none;
+    border-bottom: 10px solid white;
+    z-index: 5;
+}
+
+.hobbi-box {
+    width: 80vw;
+    height: auto;
+}
+
+.hobbi-box:last-child {
+    margin-bottom: 100px;
+}
+
+.hobbiImg {
+    filter: brightness(0.4);
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+@media (max-width:992px){
+    .hobbi-container h1{
+        width: 80%;
+        text-align: center;
+    }
+}
