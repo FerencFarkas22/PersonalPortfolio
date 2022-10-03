@@ -3,7 +3,7 @@
     border-top: 1px solid white;
     background-color: #212121;
     height: auto;
-    max-width: 100vw;
+    width: 100vw;
     z-index: 3;
     display: flex;
     flex-direction: row;
@@ -11,6 +11,8 @@
     justify-content: center;
     color: white;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 .footerHr{
     transform: rotate(90deg);
@@ -44,6 +46,7 @@
         display: none;
     }
     .footerStyle{
+        
         display: flex;
         flex-direction: column;
     }

@@ -22,12 +22,11 @@ const App = () => {
 
     return (
 
-            loading ?
+        loading ?
             <ScaleLoader className='loader' color={"#F37A24"} loading={loading}
                 size={30}
             />
             :
- 
             <React.StrictMode>
                 <Navbar />
                 <Home />

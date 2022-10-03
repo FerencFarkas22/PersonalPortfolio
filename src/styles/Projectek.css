@@ -5,6 +5,7 @@
     background-color: #292830;
     display: flex;
     flex-direction: column;
+
 }
 
 .projectContainer .project-hr {
@@ -56,7 +57,7 @@
 }
 .projectContainer .project-description .buttons button{
     height: 7vh;
-    width: 50vw;
+    width: 200px;
     border-radius: 15px;
     margin: 5px;
     border: none;
