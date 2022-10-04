@@ -12,8 +12,16 @@
     padding: 0;
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#root{
+    max-width:max-content;
     overflow-x: hidden;
 }
 body{
-    overflow-x: hidden;
+    
+
+}
+html{
+    max-width: fit-content;
 }

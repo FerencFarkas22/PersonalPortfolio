@@ -9,24 +9,14 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import ScaleLoader from "react-spinners/ScaleLoader";
 import './styles/App.css'
+import { render } from '@testing-library/react';
 
 
 const App = () => {
-    const [loading, setLoading] = useState(false);
-    useEffect(() => {
-        setLoading(true)
-        setTimeout(() => {
-            setLoading(false)
-        }, 1000)
-    }, [])
 
     return (
 
-        loading ?
-            <ScaleLoader className='loader' color={"#F37A24"} loading={loading}
-                size={30}
-            />
-            :
+        
             <React.StrictMode>
                 <Navbar />
                 <Home />
@@ -38,6 +28,7 @@ const App = () => {
 
 
     )
+
 }
 
 export default App

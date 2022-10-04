@@ -5,7 +5,7 @@
 .skill{
     background: rgb(247,196,105);
 background: linear-gradient(180deg, rgba(247,196,105,1) 0%, rgba(196,99,82,1) 100%);
-    width: 100vw;
+max-width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -34,6 +34,7 @@ background: linear-gradient(180deg, rgba(247,196,105,1) 0%, rgba(196,99,82,1) 10
     place-items: center;
     text-align: center;
     margin: 20px 0; 
+    padding: 0 20px;
 }
 
 .skillItem{
