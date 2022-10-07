@@ -19,7 +19,7 @@ function Home() {
               <h1 className='name'>{templeteLiteralTextName}</h1>
               <hr />
               <h3>Junior frontend fejlesztő!</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit explicabo ipsum quidem deleniti impedit omnis nobis necessitatibus, nam ratione nostrum quisquam quibusdam architecto voluptatibus? Sint, voluptate dolorem vero eveniet exercitationem, quod aliquid id hic consequatur cumque magni excepturi porro sequi soluta pariatur voluptatibus cupiditate consectetur! Veniam ut sequi dolore. Adipisci!</p>
+              <p>1998.08.12.-én születtem Kistarcsán, azóta Monoron élek, középiskola óta életem szerves része Budapest. A programozással és azon belül a front-enddel a középiskolai érettségi után találkoztam és azóta az a célkitúzésem hogy ebben is dolgozhassak!</p>
               <div className="links">
                 <a target='_blank' rel="noreferrer" href="https://www.instagram.com/ferencfarkas_/"><Instagram /> </a>
                 <a target='_blank' rel="noreferrer" href="https://www.youtube.com/channel/UCapmarvGOp-CYkXz9xHm6yg"><YouTube /> </a>

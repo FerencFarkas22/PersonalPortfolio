@@ -11,12 +11,12 @@
   color: white;
 }
 .rounde1 {
-  width: 200px;
-  height: 200px;
-  background-color: rgb(175, 222, 255);
+  width: 20vw;
+  height: 30vh;
+  background-color: rgba(175, 222, 255, 0.905);
   position: absolute;
-  top: 290px;
-  left: 70vw;
+  top: 38%;
+  left: 67vw;
   border-radius: 50%;
   filter: blur(50px);
   z-index: 0;
@@ -27,7 +27,7 @@
   height: 300px;
   background-color: rgba(7, 92, 161, 0.353);
   position: absolute;
-  top: 290px;
+  top: 40%;
   left: 5vw;
   border-radius: 50%;
   filter: blur(100px);
@@ -41,10 +41,11 @@
 }
 
 .introdution hr {
-  width: 37vw;
+  width: 80%;
   border: none;
   border-top: 1px solid white;
   margin-bottom: 30px;
+  margin: 0 auto;
 }
 
 .name {
@@ -145,7 +146,8 @@
     padding-bottom: 50px;
   }
   .introdution hr {
-    width: 80vw;
+    width: 40vw;
+    margin: 0 auto;
 
   }
 

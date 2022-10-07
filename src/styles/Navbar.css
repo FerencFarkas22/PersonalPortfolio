@@ -1,7 +1,7 @@
 
 .navbar{
     height: 8vh;
-    max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,18 +52,23 @@
         display: none;
     }
     .navbar{
-        width: 100vw;
+        margin: 0;
+        
         padding: 0;
     }
     .navList ul{
-       
+        padding: 0;
+       width: 100%;
         text-align: center;
         margin: 0 auto;
+        display: flex;
+        
         padding: 0;
     }
     .navList ul li{
         font-size: 15px;
         margin: 0 auto;
+        margin: 5px;
 
     }
     .navList{

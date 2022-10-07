@@ -6,6 +6,7 @@ import bootstrap from './assets/bootstrap.png';
 import node from './assets/node.js.png';
 import php from './assets/php.png';
 import sql from './assets/sql.png';
+import typescript from './assets/typescript.png';
 import photoshop from './assets/photoshop.png';
 import illustrator from './assets/illustrator.png';
 import premiere from './assets/premierepro.png';
@@ -55,6 +56,11 @@ export const WantToLearnBetter = [
         image: sql,
        
     },
+    {
+        name: "Typescript",
+        image: typescript,
+    }
+       
 ];
 export const Hobbies = [
     {
