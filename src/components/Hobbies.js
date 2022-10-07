@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/Hobbies.css'
 import { Carousel } from 'react-bootstrap';
-import pokemon from '../assets/Pokemon.png'
 import kepem1 from '../assets/kepem1.jpeg'
 import kepem2 from '../assets/kepem2.jpg'
 import kepem3 from '../assets/kepem3.jpg'
