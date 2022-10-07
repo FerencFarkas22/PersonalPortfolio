@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PersonalPortfolio/static/css/main.5170e72b.css",
-    "main.js": "/PersonalPortfolio/static/js/main.72d3f25f.js",
+    "main.js": "/PersonalPortfolio/static/js/main.2b1151dd.js",
     "static/media/kepem1.jpeg": "/PersonalPortfolio/static/media/kepem1.763963e7fc3b87e4cf39.jpeg",
     "static/media/instrument1.jpg": "/PersonalPortfolio/static/media/instrument1.a8d0c4eca868caa871d1.jpg",
     "static/media/kepem3.jpg": "/PersonalPortfolio/static/media/kepem3.7f4fe7f238a06597b8e2.jpg",
@@ -14,7 +14,6 @@
     "static/media/heroimage.jpg": "/PersonalPortfolio/static/media/heroimage.eed3851065ffe0c97751.jpg",
     "static/media/css.png": "/PersonalPortfolio/static/media/css.ea63097553654f07d95c.png",
     "static/media/html.png": "/PersonalPortfolio/static/media/html.f3aa7827cd5160f3fc1c.png",
-    "static/media/Pokemon.png": "/PersonalPortfolio/static/media/Pokemon.d42ef5ffde032081f9f7.png",
     "static/media/KockaJatek.png": "/PersonalPortfolio/static/media/KockaJatek.647c062fc93d590e285d.png",
     "static/media/kepem2.jpg": "/PersonalPortfolio/static/media/kepem2.7cff1fa0f79c5fb3f288.jpg",
     "static/media/react.png": "/PersonalPortfolio/static/media/react.20adfb35ae6a6e5817bf.png",
@@ -26,10 +25,10 @@
     "static/media/sql.png": "/PersonalPortfolio/static/media/sql.666de00e0667aaa95f73.png",
     "index.html": "/PersonalPortfolio/index.html",
     "main.5170e72b.css.map": "/PersonalPortfolio/static/css/main.5170e72b.css.map",
-    "main.72d3f25f.js.map": "/PersonalPortfolio/static/js/main.72d3f25f.js.map"
+    "main.2b1151dd.js.map": "/PersonalPortfolio/static/js/main.2b1151dd.js.map"
   },
   "entrypoints": [
     "static/css/main.5170e72b.css",
-    "static/js/main.72d3f25f.js"
+    "static/js/main.2b1151dd.js"
   ]
 }
