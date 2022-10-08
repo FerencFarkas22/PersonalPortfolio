@@ -6,7 +6,7 @@ import heroImg from '../assets/heroimage.jpg'
 
 function Home() {
   var helloworld = "<Szia! Az én nevem />";
-  var templeteLiteralTextName = "`${Farkas Ferenc}`"
+  var templeteLiteralTextName = "`${Farkas Ferenc}`";
   return (
    
       
