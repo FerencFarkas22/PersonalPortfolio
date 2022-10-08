@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.60758cab.css",
+    "main.css": "/PersonalPortfolio/static/css/main.34243f7d.css",
     "main.js": "/PersonalPortfolio/static/js/main.1310f8da.js",
     "static/media/kepem1.jpeg": "/PersonalPortfolio/static/media/kepem1.763963e7fc3b87e4cf39.jpeg",
     "static/media/instrument1.jpg": "/PersonalPortfolio/static/media/instrument1.a8d0c4eca868caa871d1.jpg",
@@ -24,11 +24,11 @@
     "static/media/ableton.png": "/PersonalPortfolio/static/media/ableton.6a256418637ddd0830ae.png",
     "static/media/sql.png": "/PersonalPortfolio/static/media/sql.666de00e0667aaa95f73.png",
     "index.html": "/PersonalPortfolio/index.html",
-    "main.60758cab.css.map": "/PersonalPortfolio/static/css/main.60758cab.css.map",
+    "main.34243f7d.css.map": "/PersonalPortfolio/static/css/main.34243f7d.css.map",
     "main.1310f8da.js.map": "/PersonalPortfolio/static/js/main.1310f8da.js.map"
   },
   "entrypoints": [
-    "static/css/main.60758cab.css",
+    "static/css/main.34243f7d.css",
     "static/js/main.1310f8da.js"
   ]
 }
