@@ -1,4 +1,5 @@
 
+
 import Footer from './components/Footer';
 import Hobbies from './components/Hobbies';
 import Home from './components/Home';
@@ -41,4 +42,3 @@ const App = () => {
 }
 
 export default App
-

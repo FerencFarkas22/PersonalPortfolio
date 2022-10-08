@@ -12,4 +12,5 @@ const SkillsItem = ({ name, image }) => {
     </div>
   )
 }
+
 export default SkillsItem

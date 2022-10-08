@@ -1,3 +1,5 @@
+
+
 import React, { useState } from 'react'
 import '../styles/NavBar1.css'
 import { Link } from 'react-scroll'
@@ -27,5 +29,6 @@ const NavBar1 = () => {
     </nav>
   )
 }
+
 
 export default NavBar1
