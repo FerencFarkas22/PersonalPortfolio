@@ -5,7 +5,8 @@ import '../styles/Home.css'
 import heroImg from '../assets/heroimage.jpg'
 
 function Home() {
-  
+  var helloworld = "<Szia! Az én nevem />";
+  var templeteLiteralTextName = "`${Farkas Ferenc}`"
   return (
    
       
@@ -14,8 +15,8 @@ function Home() {
             <div className="rounde2"></div>
 
             <div className="introdution">
-              <h2>Szia! Az én nevem</h2>
-              <h1 className='name'>Farkas Ferenc</h1>
+              <h2>{helloworld}</h2>
+              <h1 className='name'>{templeteLiteralTextName}</h1>
               <hr />
               <h3>Junior frontend fejlesztő!</h3>
               <p>1998.08.12.-én születtem Kistarcsán, azóta Monoron élek, középiskola óta életem szerves része Budapest. A programozással és azon belül a front-enddel a középiskolai érettségi után találkoztam és azóta az a célkitúzésem hogy ebben is dolgozhassak!</p>

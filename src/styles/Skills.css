@@ -3,9 +3,11 @@
 }
 
 .skill{
-    background: rgb(247,196,105);
-background: linear-gradient(180deg, rgba(247,196,105,1) 0%, rgba(196,99,82,1) 100%);
-max-width: 100%;
+    background: hsla(10, 82%, 65%, 1);
+    background: linear-gradient(90deg, hsla(10, 82%, 65%, 1) 0%, #212121);
+    background: -moz-linear-gradient(90deg, hsla(10, 82%, 65%, 1) 0%, #212121);
+    background: -webkit-linear-gradient(90deg, hsla(10, 82%, 65%, 1) 0%, #212121);
+    max-width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -19,12 +21,13 @@ max-width: 100%;
     text-align: center;
     margin-top: 110px;
     font-size: 35px;
-    color: #212121;
+    color: rgb(210, 210, 210);
 }
 .skill .title{
     width: 80vw;
     text-align: center;
-
+    color: rgb(210, 210, 210);
+    font-weight: bold;
 }
 .skill .menuList{
     width: 80vw;
