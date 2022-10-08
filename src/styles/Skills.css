@@ -4,10 +4,14 @@
 
 .skill{
     background: hsla(10, 82%, 65%, 1);
+
     background: linear-gradient(90deg, hsla(10, 82%, 65%, 1) 0%, #212121);
+    
     background: -moz-linear-gradient(90deg, hsla(10, 82%, 65%, 1) 0%, #212121);
+    
     background: -webkit-linear-gradient(90deg, hsla(10, 82%, 65%, 1) 0%, #212121);
-    max-width: 100%;
+    
+max-width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
@@ -21,13 +25,12 @@
     text-align: center;
     margin-top: 110px;
     font-size: 35px;
-    color: rgb(210, 210, 210);
+    color: #b4b4b4;
 }
 .skill .title{
     width: 80vw;
     text-align: center;
-    color: rgb(210, 210, 210);
-    font-weight: bold;
+    color: #d6d6d6;
 }
 .skill .menuList{
     width: 80vw;
@@ -47,7 +50,7 @@
     margin: 5px;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
     transition: 0.3s ease-in;
-    background: #714433;
+    background: #423937;
     color: bisque;
 }
 
@@ -55,7 +58,7 @@
     box-shadow: 0px 3px 15px rgba(0,0,0,0.5);
     transition: 0.3s ease-in;
     cursor: pointer;
-    background-color:#7142339f;;
+    background-color:#b069529f;;
     color: beige;
     border-radius: 10px;
 }
