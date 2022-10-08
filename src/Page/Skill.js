@@ -1,7 +1,5 @@
-import React, { useState } from 'react'
 import SkillsItem from '../components/Skills';
 import {SkillList, WantToLearnBetter, Hobbies} from '../SkillList';
-import { AnimatePresence, motion } from "framer-motion"
 import '../styles/Skills.css'
 
 const Skill = () => {
