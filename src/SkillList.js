@@ -3,7 +3,7 @@ import css from './assets/css.png';
 import js from './assets/js.png';
 import bootstrap from './assets/bootstrap.png';
 import node from './assets/node.js.png';
-import php from './assets/php.png';
+import scss from './assets/scss.png';
 import sql from './assets/sql.png';
 import typescript from './assets/typescript.png';
 import photoshop from './assets/photoshop.png';
@@ -16,22 +16,26 @@ export const SkillList = [
     {
         name: "HTML",
         image: html,
-       
+
     },
     {
         name: "CSS",
         image: css,
-      
+
+    },
+    {
+        name: "SCSS",
+        image: scss,
     },
     {
         name: "Javascript",
         image: js,
-       
+
     },
     {
         name: "Bootstrap",
         image: bootstrap,
-        
+
     },
     {
         name: "React",
@@ -43,43 +47,38 @@ export const WantToLearnBetter = [
     {
         name: "Node.js",
         image: node,
-       
-    },
-    {
-        name: "Php",
-        image: php,
-      
+
     },
     {
         name: "Sql",
         image: sql,
-       
+
     },
     {
         name: "Typescript",
         image: typescript,
     }
-       
+
 ];
 export const Hobbies = [
     {
-        id:1,
+        id: 1,
         name: "Photoshop",
         image: photoshop,
-       
+
     },
     {
-        id:2,
+        id: 2,
         name: "Illustrator",
         image: illustrator,
     },
     {
-        id:3,
+        id: 3,
         name: "Premiere Pro",
         image: premiere,
     },
     {
-        id:4,
+        id: 4,
         name: "Ableton",
         image: ableton,
     },

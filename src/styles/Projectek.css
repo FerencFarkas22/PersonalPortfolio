@@ -31,6 +31,9 @@
     grid-template-columns: 1fr 1fr;
     border-radius: 5px;
 }
+.projectContainer .box:nth-child(odd){
+   
+}
 .box:last-child{
     margin-bottom: 100px;
 }

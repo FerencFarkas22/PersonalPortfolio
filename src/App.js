@@ -1,11 +1,9 @@
-
-
 import Footer from './components/Footer';
 import Hobbies from './components/Hobbies';
 import Home from './components/Home';
-import Navbar from './components/NavBar1';
+import Navbar from './components/NavBar';
 import Projectek from './components/Projectek';
-import Skill from './Page/Skill';
+import Skill from './datas/Skill';
 import React from 'react'
 import { useState, useEffect } from 'react';
 import ScaleLoader from "react-spinners/ScaleLoader";
