@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/PersonalPortfolio/static/css/main.482e05bb.css",
-    "main.js": "/PersonalPortfolio/static/js/main.4613c209.js",
+    "main.js": "/PersonalPortfolio/static/js/main.fe44b9f5.js",
     "static/media/kepem1.jpeg": "/PersonalPortfolio/static/media/kepem1.763963e7fc3b87e4cf39.jpeg",
     "static/media/instrument1.jpg": "/PersonalPortfolio/static/media/instrument1.a8d0c4eca868caa871d1.jpg",
     "static/media/kepem3.jpg": "/PersonalPortfolio/static/media/kepem3.7f4fe7f238a06597b8e2.jpg",
     "static/media/guitars.jpg": "/PersonalPortfolio/static/media/guitars.0fd23324e6cf204c3f4c.jpg",
     "static/media/instrument2.jpg": "/PersonalPortfolio/static/media/instrument2.791d595448e89bd9cd47.jpg",
     "static/media/node.js.png": "/PersonalPortfolio/static/media/node.js.ae9589a989fc017200d2.png",
+    "static/media/PizzaWebsite.png": "/PersonalPortfolio/static/media/PizzaWebsite.0836bbc057549b5f66c5.png",
     "static/media/HarryPotter.png": "/PersonalPortfolio/static/media/HarryPotter.58457fdbe40a146dd25c.png",
-    "static/media/PizzaReact.jpg": "/PersonalPortfolio/static/media/PizzaReact.52d9df5206341b33617f.jpg",
     "static/media/js.png": "/PersonalPortfolio/static/media/js.ba0a928588f389c91981.png",
     "static/media/heroimage.jpg": "/PersonalPortfolio/static/media/heroimage.eed3851065ffe0c97751.jpg",
     "static/media/css.png": "/PersonalPortfolio/static/media/css.ea63097553654f07d95c.png",
+    "static/media/scss.png": "/PersonalPortfolio/static/media/scss.a2591e27bc692562995c.png",
     "static/media/html.png": "/PersonalPortfolio/static/media/html.f3aa7827cd5160f3fc1c.png",
     "static/media/KockaJatek.png": "/PersonalPortfolio/static/media/KockaJatek.647c062fc93d590e285d.png",
     "static/media/kepem2.jpg": "/PersonalPortfolio/static/media/kepem2.7cff1fa0f79c5fb3f288.jpg",
@@ -25,10 +26,10 @@
     "static/media/sql.png": "/PersonalPortfolio/static/media/sql.666de00e0667aaa95f73.png",
     "index.html": "/PersonalPortfolio/index.html",
     "main.482e05bb.css.map": "/PersonalPortfolio/static/css/main.482e05bb.css.map",
-    "main.4613c209.js.map": "/PersonalPortfolio/static/js/main.4613c209.js.map"
+    "main.fe44b9f5.js.map": "/PersonalPortfolio/static/js/main.fe44b9f5.js.map"
   },
   "entrypoints": [
     "static/css/main.482e05bb.css",
-    "static/js/main.4613c209.js"
+    "static/js/main.fe44b9f5.js"
   ]
 }
