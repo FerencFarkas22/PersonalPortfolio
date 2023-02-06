@@ -1,0 +1,102 @@
+
+.projectContainer {
+    height: auto;
+    max-width: 100%;
+    background-color: #292830;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.projectContainer .project-hr {
+    margin: -2px 0 0 0;
+    padding: 0;
+    width: 100vw;
+    border: none;
+    border-bottom: 3px solid #fff;
+}
+.projectContainer h1{margin-top: 30px;}
+.projectContainer h1,
+.projectContainer .box h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.projectContainer .box {
+    margin: 100px auto;
+    margin-top: 70px;
+    align-items: center;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 5px;
+}
+.projectContainer .box:nth-child(even) .background-image {
+    grid-column: 2;
+}
+.projectContainer .box:nth-child(even) .project-description, buttons, h1 {
+    grid-row: 1;
+}
+.box:last-child{
+    margin-bottom: 100px;
+}
+
+.projectContainer .background-image img {
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.project-description {
+    padding: 0 10px;
+    color: white;
+    text-align: center;
+}
+.projectContainer .project-description .buttons{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+}
+.projectContainer .project-description .buttons button{
+    height: 7vh;
+    width: 200px;
+    border-radius: 15px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #191919;
+    color: wheat;
+ }
+.projectContainer .project-description button svg{
+    height: 20px;
+    color: wheat;
+}
+
+
+
+
+@media (max-width:992px){
+    .projectContainer .box {
+        grid-template-columns: 1fr;
+        margin: 20px auto;
+    }
+    .projectContainer .box:nth-child(even) .background-image {
+        grid-column: 1;
+    }
+    .projectContainer .box:nth-child(even) .project-description, buttons, h1 {
+        grid-row: 2;
+    }
+    .projectContainer .project-description .buttons button{
+        height: auto;
+        width: 30vw;
+        padding: 10px;
+    }
+    .projectContainer .box .project-description:nth-child(1n){
+        grid-row: 2;
+    }
+}

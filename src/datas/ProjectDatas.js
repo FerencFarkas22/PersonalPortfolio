@@ -3,6 +3,7 @@ import KockaJatek from "../assets/KockaJatek.png"
 import harryPotter from '../assets/HarryPotter.png'
 export const ProjectDatas = [
     {
+        id:1,
         image: Pizza,
         name: "PizzaFood",
         description: "Ez egy több oldalas, Routerrel, useContextel megoldott React weboldal ami egy pizzázó weboldal felületét jeleníti meg",
@@ -10,6 +11,7 @@ export const ProjectDatas = [
         githubLink: "https://github.com/FerencFarkas22/PizzaFood"
     },
     {
+        id:2,
         image: KockaJatek,
         name: "Kocka Játék Javascriptel",
         description: "Kocka játék javascriptben! Ha egyest dobsz a pontod nullázódik",
@@ -17,6 +19,7 @@ export const ProjectDatas = [
         githubLink: "https://github.com/FerencFarkas22/kockajatek"
     },
     {
+        id:3,
         image: harryPotter,
         name: "Harry Potter karakter kereső apiból",
         description: "Harry Potter api használatával kereshető ki karakter",

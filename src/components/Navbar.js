@@ -1,7 +1,7 @@
 
 
 import React, { useState } from 'react'
-import '../styles/NavBar.css'
+import '../styles/NavBar.scss'
 import { Link } from 'react-scroll'
 
 const NavBar1 = () => {

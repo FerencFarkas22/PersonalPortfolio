@@ -1,11 +1,10 @@
-import SkillsItem from '../components/Skills';
+import SkillsItem from '../components/SkillsTile';
 import {SkillList, WantToLearnBetter, Hobbies} from '../SkillList';
 import '../styles/Skills.css'
 
 const Skill = () => {
-
   return (
-    <div className='skill'>
+    <div  className='skill'>
       <h1 className='title'>Technológiák amiket tudok</h1>
       <div className="menuList">
         {SkillList.map((skill)=>{

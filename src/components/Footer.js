@@ -2,7 +2,7 @@ import React from 'react'
 import { Instagram, YouTube, Facebook } from '@mui/icons-material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import '../styles/Footer.css'
+import '../styles/Footer.scss'
 const Footer = () => {
   return (
     <div className='footer footerStyle'>

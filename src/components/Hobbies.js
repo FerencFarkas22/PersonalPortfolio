@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import '../styles/Hobbies.css'
+import '../styles/Hobbies.scss'
 import { Carousel } from 'react-bootstrap';
 import kepem1 from '../assets/kepem1.jpeg'
 import kepem2 from '../assets/kepem2.jpg'

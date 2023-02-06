@@ -1,11 +1,11 @@
 
-import React from 'react'
 
 
 
 const SkillsItem = ({ name, image }) => {
 
-  return (
+
+return (
     <div className='skillItem'>
       <div style={{ backgroundImage: `url(${image})` }}></div>
       <h1>{name}</h1>

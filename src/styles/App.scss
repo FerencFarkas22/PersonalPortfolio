@@ -1,0 +1,27 @@
+@use "./var.scss";
+@import "./var.scss";
+
+*{
+    box-sizing: border-box;
+    @include var.box($margin:0, $padding:0);
+    font-family: var.$font-families;
+    html{
+        max-width: fit-content;
+       
+    }
+    #root{
+        max-width:max-content;
+        overflow-x: hidden;
+        .loader{
+            @include var.sizes($width:100vw, $height:100vh);
+            background-color: var.$black;
+            @include var.flexbox($display:flex);
+            position: fixed;
+            @include var.box($margin:0, $padding:50vh 0 0 0);
+            text-align: center;
+        }
+    }
+   
+}
+
+

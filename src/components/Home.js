@@ -1,7 +1,7 @@
 import { Instagram, YouTube, Facebook } from '@mui/icons-material';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import '../styles/Home.css'
+import '../styles/Home.scss'
 import heroImg from '../assets/heroimage.jpg'
 import { motion } from "framer-motion"
 function Home() {

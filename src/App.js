@@ -7,7 +7,7 @@ import Skill from './datas/Skill';
 import React from 'react'
 import { useState, useEffect } from 'react';
 import ScaleLoader from "react-spinners/ScaleLoader";
-import './styles/App.css'
+import './styles/App.scss'
 
 
 const App = () => {
