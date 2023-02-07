@@ -9,7 +9,7 @@
   @extend %grid;
   align-items: center;
   color: var.$white;
-
+ 
   .rounde1 {
     @include var.sizes($width:20%, $height:30vh);
     background-color: var.$lightblue;
@@ -101,7 +101,8 @@
       grid-template-columns: 1fr;
       /* height: fit-content; */
       .rounde2 {
-        width: 60vw
+        @include var.sizes($width:70vw, $height:70vh);
+
       }
     
       .rounde1 {

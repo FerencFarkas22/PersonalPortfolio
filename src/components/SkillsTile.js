@@ -1,9 +1,4 @@
-
-
-
-
 const SkillsItem = ({ name, image }) => {
-
 
 return (
     <div className='skillItem'>

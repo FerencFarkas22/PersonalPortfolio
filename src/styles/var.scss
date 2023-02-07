@@ -1,19 +1,30 @@
 $font-families:'Cambria, Cochin, Georgia, Times, 'Times New Roman', serif',
 Times,
 serif;
-$dark: #212121;
-$light: #ebebeb;
-$lightblue: rgba(175, 222, 255, 0.905);
-$darkblue: rgba(7, 92, 161, 0.353);
-$white: #fff;
-$hobbyBgc: #191919;
-$lightYellow: #e1dfba;
-$darkYellow: rgba(244, 94, 0, 0.693);
-$antiquewhite: antiquewhite;
-$brownishYellow: rgba(255, 182, 137, 0.693);
-$opacityDark: #242424c7;
-
 $black: black;
+$hobbyBgc: #191919;
+$dark: #212121;
+$projectsBg: #292830;
+$opacityDark: #242424c7;
+$mobileNavbarBg: #2c3133;
+$skillsItem: #423937;
+$navbarBg: #3a4042;
+$darkblue: rgba(7, 92, 161, 0.353);
+$darkYellow: rgba(244, 94, 0, 0.693);
+$brownishYellow: rgba(255, 182, 137, 0.693);
+$lightblue: rgba(175, 222, 255, 0.905);
+$antiquewhite: antiquewhite;
+$lightYellow: #e1dfba;
+$light: #ebebeb;
+$white: #fff;
+
+
+
+
+
+
+
+
 
 %setBackground {
   background-repeat: no-repeat;
@@ -22,17 +33,6 @@ $black: black;
   background-size: cover;
 }
 
-%defFlex {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-%flex {
-  display: flex;
-  box-sizing: border-box;
-  flex-direction: row;
-}
 
 %grid {
   display: grid;

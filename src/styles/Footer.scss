@@ -4,10 +4,9 @@
 .footerStyle {
     @include var.sizes($width:100%, $height:auto);
     @include var.box($margin:0, $padding:0);
+    @include var.flexbox($display:flex,$align-items:center,$justify-content:center, $flex-direction:row);
     border-top: 1px solid var.$white;
     background-color: var.$dark;
-    flex-direction: row;
-    @extend %defFlex;
     color: var.$white;
     text-align: center;
 
@@ -16,7 +15,7 @@
         @include var.sizes($width:10vw, $height:auto);
 
         svg {
-            @extend %defFlex;
+            @include var.flexbox($display:flex,$align-items:center,$justify-content:center, $flex-direction:row);
             flex-direction: row;
             font-size: 30px;
             @include var.box($margin:10px, $padding:0);

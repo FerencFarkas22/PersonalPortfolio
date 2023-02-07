@@ -1,0 +1,124 @@
+@use "./var.scss";
+@import "./var.scss";
+
+
+
+.skill {
+    background: hsla(10, 82%, 65%, 1);
+    background: linear-gradient(90deg, hsla(10, 82%, 65%, 1) 0%, #212121);
+    background: -moz-linear-gradient(90deg, hsla(10, 82%, 65%, 1) 0%, #212121);
+    background: -webkit-linear-gradient(90deg, hsla(10, 82%, 65%, 1) 0%, #212121);
+    @include var.sizes($width: 100%, $height: auto);
+    @include var.flexbox($display: flex, $justify-content:center,$align-items:center, $flex-direction:column);
+
+    .title {
+        @include var.sizes($width: 80%, $height: auto);
+        text-align: center;
+        color: var.$light;
+
+        &:first-child {
+            @include var.box($margin:110px 0 0 0, $padding:10px 0);
+            @include var.sizes($width: 90vw, $height: auto);
+            text-align: center;
+            font-size: 35px;
+            color: #b4b4b4;
+        }
+    }
+    .menuList {
+        @include var.sizes($width: 80vw, $height: auto);
+        @include var.box($margin:20px 0, $padding:0 20px);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        place-items: center;
+        text-align: center;
+
+        .skillItem {
+            @include var.sizes($width: 18vw, $height: 250px);
+            @include var.box($margin:5px, $padding:0 );
+            text-align: center;
+            box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+            transition: 0.3s ease-in;
+            background: var.$skillsItem;
+            color: bisque;
+            h1 {
+                font-size: 2rem;
+            }
+            div {
+                @include var.sizes($width:80%, $height: 60%);
+                @include var.box($margin:0 auto, $padding:0 );
+                @extend %setBackground;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                background-size: 40%;
+            }
+            &:hover {
+                box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+                transition: 0.3s ease-in;
+                cursor: pointer;
+                background-color: var.$brownishYellow;
+                color: beige;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width:992px) {
+    .skill{
+        @include var.box($margin:-300px 0 0 0, $padding:0 );
+        .menuList {
+            @include var.sizes($width:100vw, $height: auto);
+            grid-template-columns: repeat(3, 1fr);
+            .skillItem {
+                @include var.sizes($width:30vw, $height: 230px);
+                text-align: center;
+                color: bisque;
+            }
+        }
+    }
+}
+
+@media (max-width:750px) {
+    .skill{
+        @include var.box($margin:-300px 0 0 0, $padding:0 );
+        .menuList {
+            @include var.sizes($width:100vw, $height: auto);
+            grid-template-columns: repeat(2, 1fr);
+            .skillItem {
+                @include var.sizes($width:40vw, $height: 200px);
+                @include var.box($padding:10px 0 0 0 );
+                text-align: center;
+                color: bisque;
+            }
+        }
+    }
+}
+
+@media (max-width:576px) {
+    .skill{
+        @include var.box($margin:-300px 0 0 0, $padding:0 );
+        .menuList {
+            @include var.sizes($width:100vw, $height: auto);
+            grid-template-columns: 1fr;
+            .skillItem {
+                @include var.sizes($width:60vw, $height: 200px);
+                @include var.box($padding:10px 0 0 0 );
+                text-align: center;
+                color: bisque;
+                div {
+                    @include var.sizes($width:60vw, $height: 50%);
+                    @include var.box($margin:0 auto, $padding:0 );
+
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    background-position: center;
+                    object-fit: cover;
+                    background-size: 25%;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}

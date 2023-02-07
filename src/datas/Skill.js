@@ -1,6 +1,6 @@
 import SkillsItem from '../components/SkillsTile';
 import {SkillList, WantToLearnBetter, Hobbies} from '../SkillList';
-import '../styles/Skills.css'
+import '../styles/Skills.scss'
 
 const Skill = () => {
   return (
@@ -37,10 +37,6 @@ const Skill = () => {
             />
           )})}
       </div>
-      
- 
-
-
     </div>
   )
 }
