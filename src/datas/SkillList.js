@@ -1,16 +1,16 @@
-import html from './assets/html.png';
-import css from './assets/css.png';
-import js from './assets/js.png';
-import bootstrap from './assets/bootstrap.png';
-import node from './assets/node.js.png';
-import scss from './assets/scss.png';
-import sql from './assets/sql.png';
-import typescript from './assets/typescript.png';
-import photoshop from './assets/photoshop.png';
-import illustrator from './assets/illustrator.png';
-import premiere from './assets/premierepro.png';
-import react from './assets/react.png';
-import ableton from './assets/ableton.png';
+import html from '../assets/html.png';
+import css from '../assets/css.png';
+import js from '../assets/js.png';
+import bootstrap from '../assets/bootstrap.png';
+import node from '../assets/node.js.png';
+import scss from '../assets/scss.png';
+import sql from '../assets/sql.png';
+import typescript from '../assets/typescript.png';
+import photoshop from '../assets/photoshop.png';
+import illustrator from '../assets/illustrator.png';
+import premiere from '../assets/premierepro.png';
+import react from '../assets/react.png';
+import ableton from '../assets/ableton.png';
 
 export const SkillList = [
     {

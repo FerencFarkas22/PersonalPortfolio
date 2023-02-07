@@ -1,5 +1,5 @@
-import SkillsItem from '../components/SkillsTile';
-import {SkillList, WantToLearnBetter, Hobbies} from '../SkillList';
+import SkillsItem from './SkillsTile';
+import {SkillList, WantToLearnBetter, Hobbies} from '../datas/SkillList';
 import '../styles/Skills.scss'
 
 const Skill = () => {
