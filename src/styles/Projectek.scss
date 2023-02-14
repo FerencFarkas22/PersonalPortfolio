@@ -20,7 +20,7 @@
     }
 
     .box {
-        @include var.box($margin:10px auto 100px auto, $padding:0);
+        @include var.box($margin:10px auto 40px auto, $padding:0);
         @include var.sizes($width: 70%, $height: auto);
         @extend %grid;
         align-items: center;

@@ -1,6 +1,6 @@
 import Pizza from "../assets/PizzaWebsite.png"
 import KockaJatek from "../assets/KockaJatek.png"
-import harryPotter from '../assets/HarryPotter.png'
+import Crypto from '../assets/crypto.png'
 export const ProjectDatas = [
     {
         id:1,
@@ -12,19 +12,19 @@ export const ProjectDatas = [
     },
     {
         id:2,
+        image: Crypto,
+        name: "CryptoTracker",
+        description: "Kriptovaluta kereső api segítségével, továbbá valutaválasztó is található benne és egy kedvencek menüpont is.",
+        weblink: "https://ferencfarkas22.github.io/Crypto/#/",
+        githubLink: "https://github.com/FerencFarkas22/Crypto"
+    },
+    {
+        id:3,
         image: KockaJatek,
         name: "Kocka Játék Javascriptel",
         description: "Kocka játék javascriptben! Ha egyest dobsz a pontod nullázódik",
         weblink: "https://ferencfarkas22.github.io/kockajatek/",
         githubLink: "https://github.com/FerencFarkas22/kockajatek"
-    },
-    {
-        id:3,
-        image: harryPotter,
-        name: "Harry Potter karakter kereső apiból",
-        description: "Harry Potter api használatával kereshető ki karakter",
-        weblink: "https://ferencfarkas22.github.io/PizzaFood/",
-        githubLink: "https://ferencfarkas22.github.io/Harry-Potter-searcher/"
     },
 
 ]
